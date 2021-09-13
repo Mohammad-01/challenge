@@ -8,11 +8,11 @@ Write a function named raisedToTheThird that takes in an array of numbers and re
 
 ------------------------------------------------------------------------------------------------ */
 
-const raisedToTheThird = (arr) => {
+const raisedToTheThird = (array) => {
   // Solution code here...
-  const toThird = [];
-  arr.forEach(value => toThird.push(Math.pow(value, 3)));
-  return toThird;
+  const edit = [];
+  array.forEach(value => edit.push(Math.pow(value, 3)));
+  return edit;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -21,10 +21,10 @@ CHALLENGE 2
 Write a function named addOne that, given an array of numbers, uses map to return a new array with each value simply incremented by 1. 
 ------------------------------------------------------------------------------------------------ */
 
-const addOne = (arr) => {
+const addOne = (array) => {
   // Solution code here...
-  const arr2 = arr.map(val => val+=1);
-  return arr2;
+  const edit = array.map(value => value + 1);
+  return edit;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -33,10 +33,10 @@ CHALLENGE 3
 Write a function named addQuestion that, given an array of strings, uses map to return a new array containing each string followed by a question mark character.
 ------------------------------------------------------------------------------------------------ */
 
-const addQuestion = (arr) => {
+const addQuestion = (array) => {
   // Solution code here...
-  const arr2 = arr.map(val => val+'?');
-  return arr2;
+  const edit = array.map(value => value + '?');
+  return edit;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -49,13 +49,13 @@ You may choose to complete this challenge using a for loop, for...in syntax, or 
 For example, twoToThe([1,2,3]) returns [2,4,8] because 2 ^ 1 = 2, 2 ^ 2 = 4, and 2 ^ 3 = 8.
 ------------------------------------------------------------------------------------------------ */
 
-const forLoopTwoToThe = (arr) => {
+const forLoopTwoToThe = (array) => {
   // Solution code here...
-  const arr2 = [];
-  for(let i=0; i<arr.length; i++){
-    arr2.push(Math.pow(2, arr[i]));
+  const edit = [];
+  for(let count = 0; count<array.length; count++){
+    edit.push(Math.pow(2, array[count]));
   }
-  return arr2;
+  return edit;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -64,11 +64,11 @@ CHALLENGE 5
 Write a function named forEachTwoToThe that produces the same output as your forLoopTwoToThe function from challenge 4, but uses forEach instead of a for loop.
 ------------------------------------------------------------------------------------------------ */
 
-const forEachTwoToThe = (arr) => {
+const forEachTwoToThe = (array) => {
   // Solution code here...
-  const arr2 = [];
-  arr.forEach(val => arr2.push(Math.pow(2, val)));
-  return arr2;
+  const edit = [];
+  array.forEach(value => edit.push(Math.pow( 2, value )));
+  return edit;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -77,10 +77,10 @@ CHALLENGE 6
 Write a function named mapTwoToThe that produces the same output as your forLoopTwoToThe function from challenge 4 and your forEachTwoToThe function from challenge 5, but uses map instead of a for loop or forEach.
 ------------------------------------------------------------------------------------------------ */
 
-const mapTwoToThe = (arr) => {
+const mapTwoToThe = (array) => {
   // Solution code here...
-  const arr2 = arr.map(val => Math.pow(2, val));
-  return arr2;
+  const edit = array.map(value => Math.pow(2, value));
+  return edit;
 };
 
 /* ------------------------------------------------------------------------------------------------
