@@ -1,23 +1,26 @@
-# Data Structures and Algorithms
 
-See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
+## Lab 02
 
-## Repository Quick Tour and Usage
+Number and name of feature: Feature #1: Display images / Feature #2: Allow users to vote for their favorite beast
+ / Feature 3: Bootstrap
 
-### 301 Code Challenges
+Estimate of time needed to complete: 1- 1 hour / 2- 1 hour / 3- 1 hour
 
-Under the `javascript` folder, at the top level, is a sub-folder called `code-challenges`
+Start time: 3PM
 
-Each day, you'll add one new file to this folder to do your work for the day's assigned code challenge
+Finish time: 7PM
 
-If you have not already done so, run `npm install` from within this folder to setup your system to be able to run tests using `Jest`
+Actual time needed to complete: 4 hours
 
-To run your tests
 
-- Change to the `javascript` folder
-- run `npm test` to run all of the tests
-- run `npm test ##` to only run tests for challenge ## (i.e. 01)
+## Lab 03
 
-### 401 Data Structures, Code Challenges
+Number and name of feature:Feature #1: Display a Modal
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+Estimate of time needed to complete: 3 hours
+
+Start time: 3PM
+
+Finish time: 8PM
+
+Actual time needed to complete: 5 hours
