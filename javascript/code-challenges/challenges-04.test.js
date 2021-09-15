@@ -116,7 +116,7 @@ const alphabetize = (array) => {
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
-
+*****
 Write a function named sortByPrice that takes in an array of objects, each of which has a 'price' property, and sorts those objects by price, lowest to highest, returning the same array.
 
 Here is an example of the input:
